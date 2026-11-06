@@ -1,0 +1,47 @@
+test_dense_filter_rejects_free_space_but_retains_occluded (test_completion.CompletionTests.test_dense_filter_rejects_free_space_but_retains_occluded) ... ok
+test_locked_composite_does_not_hide_raw_drift (test_completion.CompletionTests.test_locked_composite_does_not_hide_raw_drift) ... ok
+test_pixel_cells_stay_in_plane_and_requested_footprint (test_completion.CompletionTests.test_pixel_cells_stay_in_plane_and_requested_footprint) ... ok
+test_plane_metric_depth_and_parallel_rejection (test_completion.CompletionTests.test_plane_metric_depth_and_parallel_rejection) ... ok
+test_projection_nearest_surface_and_pixel_centers (test_completion.CompletionTests.test_projection_nearest_surface_and_pixel_centers) ... ok
+test_registered_edit_passes (test_completion.CompletionTests.test_registered_edit_passes) ... ok
+test_rejected_edit_never_writes_composite (test_completion.CompletionTests.test_rejected_edit_never_writes_composite) ... ok
+test_archive_integrity_and_traversal (test_genrc.ContractTests.test_archive_integrity_and_traversal) ... ok
+test_cloud_result_is_portable_without_model_libraries (test_genrc.ContractTests.test_cloud_result_is_portable_without_model_libraries) ... ok
+test_cloud_submit_requires_explicit_flag_before_client_import (test_genrc.ContractTests.test_cloud_submit_requires_explicit_flag_before_client_import) ... ok
+test_model_cache_tampering (test_genrc.ContractTests.test_model_cache_tampering) ... ok
+test_reject_nan_and_excessive_settings (test_genrc.ContractTests.test_reject_nan_and_excessive_settings) ... ok
+test_reject_reflected_pose (test_genrc.ContractTests.test_reject_reflected_pose) ... ok
+test_reject_unknown_authority (test_genrc.ContractTests.test_reject_unknown_authority) ... ok
+test_cropped_camera_ray_matches_original (test_genrc.GeometryTests.test_cropped_camera_ray_matches_original) ... ok
+test_free_space_rejection (test_genrc.GeometryTests.test_free_space_rejection) ... ok
+test_half_pixel_metric_pose (test_genrc.GeometryTests.test_half_pixel_metric_pose) ... ok
+test_heldout_frames_cannot_enter_depth_checks (test_genrc.GeometryTests.test_heldout_frames_cannot_enter_depth_checks) ... ok
+test_huge_npy_header_rejected_before_allocation (test_genrc.GeometryTests.test_huge_npy_header_rejected_before_allocation) ... ok
+test_nonfinite_and_outside_roi_holes_not_fused (test_genrc.GeometryTests.test_nonfinite_and_outside_roi_holes_not_fused) ... ok
+test_only_faces_touching_active_region_added (test_genrc.GeometryTests.test_only_faces_touching_active_region_added) ... ok
+test_oversized_observation_zip_rejected_before_decode (test_genrc.GeometryTests.test_oversized_observation_zip_rejected_before_decode) ... ok
+test_post_snap_degenerate_faces_rejected (test_genrc.GeometryTests.test_post_snap_degenerate_faces_rejected) ... ok
+test_room_bounds_and_long_edges (test_genrc.GeometryTests.test_room_bounds_and_long_edges) ... ok
+test_actual_tsdf_plane_at_known_metric_location (test_hypersim.GeometryTests.test_actual_tsdf_plane_at_known_metric_location) ... ok
+test_bad_poses_rejected (test_hypersim.GeometryTests.test_bad_poses_rejected) ... ok
+test_cv_extrinsic_maps_world_point_to_positive_depth (test_hypersim.GeometryTests.test_cv_extrinsic_maps_world_point_to_positive_depth) ... ok
+test_frontoparallel_plane_from_radial_distances (test_hypersim.GeometryTests.test_frontoparallel_plane_from_radial_distances) ... ok
+test_invalid_depth_remains_unknown (test_hypersim.GeometryTests.test_invalid_depth_remains_unknown) ... ok
+test_translation_scale_and_nonsymmetric_rotation (test_hypersim.GeometryTests.test_translation_scale_and_nonsymmetric_rotation) ... ok
+test_unsupported_intrinsics_and_dimensions_rejected (test_hypersim.GeometryTests.test_unsupported_intrinsics_and_dimensions_rejected) ... ok
+test_budget_rejects_before_network (test_hypersim.InputTests.test_budget_rejects_before_network) ... ok
+test_cancelled_fetch_persists_incomplete_status (test_hypersim.InputTests.test_cancelled_fetch_persists_incomplete_status) ... ok
+test_development_fixture_preserves_all_four_withheld_views (test_hypersim.InputTests.test_development_fixture_preserves_all_four_withheld_views) ... ok
+test_existing_run_is_never_overwritten (test_hypersim.InputTests.test_existing_run_is_never_overwritten) ... ok
+test_fixture_disjointness (test_hypersim.InputTests.test_fixture_disjointness) ... ok
+test_missing_reconstruction_stays_in_evaluation (test_hypersim.InputTests.test_missing_reconstruction_stays_in_evaluation) ... ok
+test_no_valid_reference_is_explicitly_unevaluable (test_hypersim.InputTests.test_no_valid_reference_is_explicitly_unevaluable) ... ok
+test_partial_manifest_is_not_reconstruction_input (test_hypersim.InputTests.test_partial_manifest_is_not_reconstruction_input) ... ok
+test_reuse_rejects_changed_source_before_copying (test_hypersim.InputTests.test_reuse_rejects_changed_source_before_copying) ... ok
+test_server_ignoring_range_is_rejected (test_hypersim.InputTests.test_server_ignoring_range_is_rejected) ... ok
+test_unsafe_paths_rejected (test_hypersim.InputTests.test_unsafe_paths_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 1.225s
+
+OK

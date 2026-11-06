@@ -1,0 +1,107 @@
+{
+  "id": "surreal-library",
+  "label": "Replay of a finished room, recorded 2026-11-05. Not live generation.",
+  "camera": {
+    "position": [
+      0.134,
+      1.083,
+      0.74
+    ],
+    "lookAt": [
+      0.134,
+      1.083,
+      -6
+    ],
+    "fovDeg": 59.2,
+    "width": 1280,
+    "height": 720,
+    "viewOffsetX": -86
+  },
+  "room": {
+    "width": 9,
+    "depth": 9,
+    "height": 4.1
+  },
+  "shell": "models/room.glb",
+  "heroes": [
+    {
+      "id": "armchair",
+      "name": "Leather wingback armchair",
+      "glb": "models/armchair.glb",
+      "order": 0
+    },
+    {
+      "id": "lamp",
+      "name": "Banker's desk lamp",
+      "glb": "models/lamp.glb",
+      "order": 1
+    },
+    {
+      "id": "ladder",
+      "name": "Rolling library ladder",
+      "glb": "models/ladder.glb",
+      "order": 2
+    },
+    {
+      "id": "globe",
+      "name": "Library floor globe",
+      "glb": "models/globe.glb",
+      "order": 3
+    },
+    {
+      "id": "bookcase",
+      "name": "Tall free-standing bookcase",
+      "glb": "models/bookcase.glb",
+      "order": 4
+    },
+    {
+      "id": "reading_table",
+      "name": "Long reading table",
+      "glb": "models/reading_table.glb",
+      "order": 5
+    },
+    {
+      "id": "swollen_reading_folio",
+      "name": "Oxblood reading folio",
+      "glb": "models/swollen_reading_folio.glb",
+      "order": 6
+    },
+    {
+      "id": "oversized_scholar_bust",
+      "name": "Plaster scholar bust",
+      "glb": "models/oversized_scholar_bust.glb",
+      "order": 7
+    }
+  ],
+  "wire": {
+    "lineColor": "#5a6070",
+    "heroColor": "#e3b062"
+  },
+  "stages": {
+    "wire": "wire.png",
+    "evaLit": "eva-lit.png",
+    "paint": "atlas-paint.png",
+    "final": "final.png"
+  },
+  "masks": {
+    "hero": "hero-mask.png",
+    "columns": "column-mask.png",
+    "heroIds": "hero-ids.png"
+  },
+  "paintedWalls": true,
+  "cleanStages": {
+    "evaLit": "eva-lit-clean.png",
+    "paint": "atlas-paint-clean.png",
+    "final": "final-clean.png"
+  },
+  "architectureStages": {
+    "evaLit": "eva-lit-columns.png",
+    "paint": "atlas-paint-columns.png",
+    "final": "final-columns.png"
+  },
+  "heroBehindStages": {
+    "evaLit": "eva-lit-behind.png",
+    "paint": "atlas-paint-behind.png",
+    "final": "final-behind.png"
+  }
+}

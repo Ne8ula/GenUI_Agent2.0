@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVA — Replay</title>
+    <link rel="icon" href="data:," />
+    <style>
+      html, body { margin: 0; height: 100%; background: #000; color: #f3ead8; font-family: 'IBM Plex Sans', system-ui, sans-serif; overflow: hidden; }
+      body { display: grid; place-items: center; }
+      #stage { position: relative; line-height: 0; }
+      #label { position: absolute; top: 12px; left: 12px; margin: 0; padding: 6px 10px; line-height: 1.4; font-size: 14px; background: rgba(0, 0, 0, 0.55); border: 1px solid #e3b062; border-radius: 4px; }
+      #controls { position: fixed; bottom: 16px; left: 16px; display: flex; gap: 8px; }
+      button { font: inherit; font-size: 15px; padding: 8px 18px; color: inherit; background: rgba(20, 20, 20, 0.8); border: 1px solid #6b6b6b; border-radius: 4px; cursor: pointer; }
+      button:focus-visible { outline: 2px solid #e3b062; outline-offset: 2px; }
+    </style>
+  </head>
+  <body>
+    <div id="stage"><p id="label" role="status">Loading the recorded replay…</p></div>
+    <div id="controls"><button id="start" type="button">Start</button><button id="stop" type="button">Stop</button></div>
+    <script type="module" src="/src/replay.ts"></script>
+  </body>
+</html>

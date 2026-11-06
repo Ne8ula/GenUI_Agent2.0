@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+/.local/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+.claude/settings.local.json
+.claude/worktrees/
+test-results/
+playwright-report/

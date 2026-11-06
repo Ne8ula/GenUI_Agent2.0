@@ -1,0 +1,2 @@
+# Preserve historical document bytes, including original line endings.
+docs/archive/snapshot/** -text

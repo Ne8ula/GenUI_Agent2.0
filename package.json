@@ -1,0 +1,38 @@
+{
+  "name": "eva-future-demos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EVA fictional text-to-world installation, built through incremental demos.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "check": "npm run typecheck && npm test"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "@mediapipe/tasks-vision": "0.10.32",
+    "ajv": "^8.20.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.9",
+    "@types/three": "0.180.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "playwright": "~1.56.1",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.3"
+  }
+}

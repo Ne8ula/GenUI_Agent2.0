@@ -1,0 +1,363 @@
+/* A lit window in a dark room: the interface is the quiet wall; the room render is the only bright thing. */
+:root {
+  --wall: #1b2026;      /* unlit wall around the screen */
+  --console: #242a32;   /* raised console surface */
+  --field: #161a1f;     /* inputs, recessed */
+  --ink: #e8e2d4;       /* lamplit paper, echoes the room's cream walls */
+  --dim: #9aa3ad;
+  --rule: #353c46;
+  --rule-strong: #4a525e;
+  --lamp: #e3b062;      /* lamplight: primary actions and focus only */
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--wall);
+  color-scheme: dark;
+  accent-color: var(--lamp);
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--wall); }
+button, textarea, input, select { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: default; }
+p, h1, h2 { margin: 0; }
+strong { font-weight: 500; }
+
+:focus-visible { outline: 2px solid var(--lamp); outline-offset: 3px; }
+
+/* ---------- shell ---------- */
+.app-shell {
+  height: 100dvh;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 20px 36px 14px;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 20px;
+}
+
+.app-header, .identity, .conversation-heading, .composer-controls, .fixture-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.identity { justify-content: flex-start; align-items: baseline; gap: 14px; }
+.identity > span:last-child { color: var(--dim); }
+.wordmark { font-size: 24px; font-weight: 500; letter-spacing: 0.04em; }
+.fixture-label { margin-left: auto; font-size: 13px; color: var(--dim); }
+
+.conversation-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(440px, 1fr);
+  gap: 36px;
+  min-height: 0;
+}
+
+/* ---------- buttons: quiet by default, lamplight for the main action ---------- */
+.composer-controls button, .reveal-room, .fixture-controls button, .tracking-controls button, .composition-panel button, .session-actions button, .speech-controls button {
+  flex-shrink: 0;
+  min-width: 110px;
+  min-height: 40px;
+  padding: 8px 16px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  font-weight: 500;
+}
+.composer-controls button:hover:not(:disabled), .reveal-room:hover, .fixture-controls button:hover:not(:disabled), .tracking-controls button:hover:not(:disabled), .composition-panel button:hover:not(:disabled), .session-actions button:hover, .speech-controls button:hover:not(:disabled) { border-color: var(--lamp); }
+.composer-controls button:disabled, .fixture-controls button:disabled, .tracking-controls button:disabled, .composition-panel button:disabled, .speech-controls button:disabled { border-color: var(--rule); color: var(--dim); opacity: 0.6; }
+.composer-controls button:not(:disabled), .reveal-room, .composition-actions > button:first-child:not(:disabled) {
+  border-color: var(--lamp);
+  background: var(--lamp);
+  color: var(--wall);
+}
+.composer-controls button:not(:disabled):hover, .reveal-room:hover, .composition-actions > button:first-child:not(:disabled):hover { background: #f0c57f; }
+
+/* ---------- invitation (before reveal) and the room (after) ---------- */
+.invitation { align-self: center; max-width: 620px; padding: 24px 0; }
+.invitation h1 {
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+.character-line { margin-top: 36px; max-width: 30ch; font-size: 24px; font-weight: 300; font-style: italic; line-height: 1.45; }
+.invitation-hint { margin-top: 16px; max-width: 40ch; color: var(--dim); font-size: 18px; }
+.reveal-room { margin-top: 28px; }
+/* Before reveal, EVA's line follows the question directly; the stage note settles underneath. */
+.invitation:not(.invitation-revealed) { display: flex; flex-direction: column; align-items: flex-start; }
+.invitation:not(.invitation-revealed) .visitor-journey { order: 1; margin-top: 48px; max-width: 52ch; }
+
+.session-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.reset-confirmation { padding: 14px; border: 1px solid var(--lamp); border-radius: 8px; }
+.reset-confirmation h2 { font-size: 18px; font-weight: 500; }
+.reset-confirmation p { margin-top: 8px; }
+.reset-confirmation .session-actions { margin-top: 12px; }
+
+.visitor-journey { flex-shrink: 0; margin-top: 24px; overflow-wrap: anywhere; }
+.visitor-journey h2 { font-size: 15px; font-weight: 500; }
+.visitor-journey p { margin-top: 4px; color: var(--dim); font-size: 13px; }
+.invitation-revealed .visitor-journey { margin-top: 0; }
+
+.invitation-revealed {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 0;
+  max-width: none;
+  padding: 0;
+}
+/* The room replaces the question once revealed; the heading stays for assistive technology. */
+.invitation-revealed h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.fixture-room {
+  --tracking-height: 100px;
+  --manual-height: 44px;
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: 48px minmax(160px, 1fr) var(--tracking-height) 40px var(--manual-height);
+  gap: 12px;
+}
+.fixture-room-caption { min-height: 0; overflow-y: auto; scrollbar-gutter: stable; font-variant-numeric: tabular-nums; }
+.fixture-room-caption h2 { font-size: 15px; font-weight: 500; }
+.fixture-room-caption p { margin-top: 2px; color: var(--dim); font-size: 13px; }
+/* The one bright thing: a window into a lit room, with light spilling onto the wall. */
+.fixture-viewport {
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #111418;
+  box-shadow: 0 0 0 1px #ffffff12, 0 40px 120px -30px #e3b06233;
+  cursor: grab;
+  user-select: none;
+}
+.fixture-viewport:active { cursor: grabbing; }
+.fixture-viewport[aria-disabled="true"] { cursor: default; }
+.fixture-viewport canvas { display: block; width: 100%; height: 100%; }
+.fixture-viewport { position: relative; }
+/* Recorded fixture content is always labelled while it is on screen. */
+.construction-label {
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 12px;
+  max-width: calc(100% - 24px);
+  padding: 6px 10px;
+  border: 1px solid var(--lamp);
+  border-radius: 4px;
+  background: #111418e6;
+  color: var(--ink);
+  font-size: 13px;
+  pointer-events: none;
+}
+.construction-controls { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.construction-modes { display: flex; }
+.construction-controls button {
+  flex-shrink: 0;
+  min-height: 36px;
+  padding: 6px 12px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.construction-modes button:first-child { border-radius: 6px 0 0 6px; }
+.construction-modes button:last-child { border-radius: 0 6px 6px 0; border-left: 0; }
+.construction-controls button[aria-pressed="true"] { border-color: var(--lamp); background: var(--lamp); color: var(--wall); }
+.construction-controls button:hover:not(:disabled) { border-color: var(--lamp); }
+.construction-controls button:disabled { border-color: var(--rule); color: var(--dim); opacity: 0.6; cursor: default; }
+.construction-controls p { min-width: 0; max-height: 40px; overflow-y: auto; color: var(--dim); font-size: 12px; line-height: 1.35; }
+.fixture-controls { min-height: 0; }
+.fixture-controls button { width: 160px; }
+.fixture-controls p { color: var(--dim); font-size: 13px; }
+.tracking-controls { display: grid; grid-template-rows: 52px 40px; gap: 8px; min-width: 0; }
+.tracking-status { overflow-y: auto; scrollbar-gutter: stable; color: var(--dim); font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
+.tracking-toolbar { display: flex; gap: 8px; }
+.tracking-toolbar button { flex: 1; padding: 8px 12px; }
+.tracking-panel {
+  position: absolute;
+  z-index: 1;
+  inset: 0 0 calc(var(--tracking-height) + var(--manual-height) + 24px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  padding: 20px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 8px;
+  background: var(--console);
+  box-shadow: 0 24px 60px #00000066;
+}
+.tracking-panel > * + * { margin-top: 16px; }
+.tracking-panel p { text-wrap: pretty; }
+.tracking-panel-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.tracking-panel-heading h3 { margin: 0; font-size: 18px; font-weight: 500; text-wrap: balance; }
+.tracking-panel-heading button { min-width: 64px; padding: 8px; }
+.tracking-panel fieldset { min-width: 0; margin-inline: 0; padding: 12px; border: 1px solid var(--rule); border-radius: 6px; }
+.tracking-panel legend { padding: 0 4px; font-weight: 500; }
+.tracking-measurements { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 12px; margin-top: 16px; }
+.tracking-measurements label { display: flex; flex-direction: column; justify-content: space-between; gap: 6px; }
+.tracking-captures { display: grid; gap: 10px; }
+.tracking-help { margin-top: 12px; color: var(--dim); }
+.fixture-fallback { height: 100%; display: flex; align-items: center; padding: 24px; background: var(--console); color: var(--ink); }
+
+/* ---------- console: conversation, composition and case ---------- */
+.conversation-panel {
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto 196px;
+  border-radius: 12px;
+  background: var(--console);
+  padding: 18px 22px;
+}
+.conversation-panel.inspection-active, .conversation-panel.reset-pending { grid-template-rows: auto minmax(96px, 0.55fr) auto minmax(0, 1.45fr); }
+
+.conversation-heading { align-items: baseline; padding-bottom: 10px; border-bottom: 1px solid var(--rule); }
+.conversation-heading h2 { font-size: 15px; font-weight: 500; }
+.conversation-status { font-size: 13px; color: var(--dim); text-align: right; }
+
+.transcript {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  padding: 14px 10px 14px 2px;
+  margin: 6px -10px 6px -2px;
+  overflow-wrap: anywhere;
+}
+.empty-transcript { padding: 24px 0; max-width: 34ch; }
+.empty-transcript p:first-child { font-size: 24px; font-weight: 300; font-style: italic; line-height: 1.35; }
+.empty-transcript p + p { margin-top: 10px; color: var(--dim); }
+.messages { list-style: none; margin: 0; padding: 0; }
+.message + .message { margin-top: 22px; }
+.message-speaker { display: flex; align-items: center; gap: 12px; font-size: 13px; color: var(--dim); }
+.message-text { margin-top: 6px; font-size: 18px; line-height: 1.55; white-space: pre-wrap; }
+/* EVA speaks in light italic: her whole voice, not an accent. */
+.message-eva .message-text { font-size: 24px; font-weight: 300; font-style: italic; line-height: 1.4; }
+.message-visitor .message-text { color: var(--dim); font-size: 15px; }
+.interrupted-label { color: var(--lamp); font-size: 13px; }
+
+.composer { padding-top: 12px; border-top: 1px solid var(--rule); }
+.composer label { display: block; margin-bottom: 6px; font-size: 13px; color: var(--dim); }
+.composer textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+  padding: 10px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--field);
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1.45;
+}
+.composer textarea::placeholder { color: var(--dim); opacity: 0.8; }
+.composer textarea:read-only { opacity: 0.7; }
+.composer-controls { height: 42px; margin-top: 8px; }
+.composer-controls p { max-width: 36ch; max-height: 42px; overflow-y: auto; font-size: 13px; line-height: 1.45; color: var(--dim); }
+
+.speech-controls { display: flex; gap: 8px; margin-top: 8px; }
+.speech-controls button { flex: 1; min-width: 0; min-height: 38px; padding: 6px 8px; font-size: 13px; line-height: 1.3; }
+.speech-state { height: 38px; margin-top: 6px; overflow-y: auto; font-size: 13px; line-height: 19px; color: var(--dim); }
+.speech-state[data-microphone="active"] { color: var(--lamp); font-weight: 500; border-left: 2px solid var(--lamp); padding-left: 8px; }
+
+.composition-panel {
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: 38px 40px minmax(0, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+  font-size: 13px;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+}
+.composition-source { min-width: 0; color: var(--dim); }
+.composition-source p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.composition-source strong { color: var(--ink); }
+.composition-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.composition-panel button { min-width: 0; padding: 6px 10px; font-size: 13px; line-height: 1.3; }
+.composition-details { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; overflow-wrap: anywhere; padding: 0 6px 6px 0; color: var(--dim); }
+.composition-details > * + * { margin-top: 10px; }
+.composition-details strong, .composition-details h3, .composition-details h4, .composition-details label, .composition-details legend { color: var(--ink); }
+
+/* Case sections: separated by space and a hairline, not nested boxes. */
+.speech-panel, .room-inspection, .room-reconstruction, .room-investigation { padding-top: 12px; border-top: 1px solid var(--rule); }
+.composition-details > :first-child { padding-top: 0; border-top: 0; }
+.speech-panel h3, .room-inspection h3, .room-reconstruction h3, .room-investigation h3 { margin: 0; font-size: 15px; font-weight: 500; }
+.speech-panel > * + *, .speech-panel details p { margin-top: 8px; }
+.speech-panel summary, .fine-print summary { min-height: 32px; padding: 6px 0; cursor: pointer; }
+.fine-print summary { color: var(--dim); }
+.fine-print summary:hover { color: var(--ink); }
+.fine-print p { margin-top: 6px; }
+
+.room-inspection > * + * { margin-top: 8px; }
+.room-inspection ul { margin-bottom: 0; padding-left: 18px; }
+.room-inspection li + li { margin-top: 4px; }
+.room-inspection .inspection-objects { display: flex; flex-wrap: wrap; gap: 8px; padding: 2px; list-style: none; }
+.inspection-objects li + li { margin-top: 0; }
+.inspection-objects button[aria-pressed="true"] { border-color: var(--lamp); color: var(--lamp); }
+
+.room-reconstruction > * + *, .room-reconstruction form > * + *, .reconstruction-feedback > * + *,
+.room-investigation > * + *, .room-investigation form > * + *, .hypothesis-feedback > * + * { margin-top: 10px; }
+.room-reconstruction label { display: block; font-weight: 500; }
+.room-reconstruction input, .room-reconstruction select, .investigation-dialogue select, .tracking-measurements input {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  min-height: 38px;
+  padding: 6px 8px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--field);
+  color: var(--ink);
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+}
+.reconstruction-fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.reconstruction-fields input, .reconstruction-fields select { margin-top: 4px; }
+.room-investigation fieldset { min-width: 0; margin-inline: 0; padding: 8px; border: 1px solid var(--rule); border-radius: 6px; }
+.room-investigation legend { padding: 0 4px; font-weight: 500; }
+.investigation-candidates { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 8px; }
+.investigation-candidates label, .investigation-citation { display: flex; align-items: flex-start; gap: 8px; min-height: 38px; padding: 6px; cursor: pointer; }
+.room-investigation input { flex-shrink: 0; width: 16px; height: 16px; margin: 2px 0 0; }
+.room-investigation label:has(input:checked) { background: var(--field); border-radius: 4px; }
+.hypothesis-feedback p + p { margin-top: 4px; }
+.investigation-dialogue { padding-top: 12px; border-top: 1px solid var(--rule); }
+.investigation-dialogue h4 { margin: 0; font-size: 15px; font-weight: 500; }
+.investigation-dialogue > * + *, .statement-feedback > * + *, .challenge-feedback > * + *, .accusation-feedback > * + * { margin-top: 8px; }
+.investigation-dialogue label { display: block; font-weight: 500; }
+.investigation-dialogue [role="status"] p + p { margin-top: 4px; }
+.investigation-dialogue button[aria-disabled="true"], .investigation-dialogue button[aria-disabled="true"]:hover { border-color: var(--rule); color: var(--dim); cursor: default; }
+.hypothesis-stale { padding-left: 8px; border-left: 2px solid var(--lamp); }
+.investigation-history summary { min-height: 32px; padding: 6px 2px; font-weight: 500; color: var(--ink); cursor: pointer; }
+.investigation-history ol { padding-left: 20px; margin: 8px 0 0; }
+.investigation-history li + li { margin-top: 10px; }
+.composition-availability { display: flex; align-items: center; gap: 12px; }
+.composition-availability p { flex: 1; }
+.composition-availability button { flex-shrink: 0; min-height: 36px; }
+
+.operational-note { color: var(--dim); font-size: 12px; line-height: 1.45; opacity: 0.8; }

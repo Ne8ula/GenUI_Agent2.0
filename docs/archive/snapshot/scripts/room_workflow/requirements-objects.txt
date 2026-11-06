@@ -1,0 +1,6 @@
+# Added to the reviewed Torch 2.5.1 base; independent of the deployed VGGT image.
+transformers==4.49.0
+tokenizers==0.21.0
+regex==2024.11.6
+packaging==24.2
+PyYAML==6.0.2

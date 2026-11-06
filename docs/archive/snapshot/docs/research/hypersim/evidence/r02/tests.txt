@@ -1,0 +1,21 @@
+test_actual_tsdf_plane_at_known_metric_location (test_hypersim.GeometryTests.test_actual_tsdf_plane_at_known_metric_location) ... ok
+test_bad_poses_rejected (test_hypersim.GeometryTests.test_bad_poses_rejected) ... ok
+test_cv_extrinsic_maps_world_point_to_positive_depth (test_hypersim.GeometryTests.test_cv_extrinsic_maps_world_point_to_positive_depth) ... ok
+test_frontoparallel_plane_from_radial_distances (test_hypersim.GeometryTests.test_frontoparallel_plane_from_radial_distances) ... ok
+test_invalid_depth_remains_unknown (test_hypersim.GeometryTests.test_invalid_depth_remains_unknown) ... ok
+test_translation_scale_and_nonsymmetric_rotation (test_hypersim.GeometryTests.test_translation_scale_and_nonsymmetric_rotation) ... ok
+test_unsupported_intrinsics_and_dimensions_rejected (test_hypersim.GeometryTests.test_unsupported_intrinsics_and_dimensions_rejected) ... ok
+test_budget_rejects_before_network (test_hypersim.InputTests.test_budget_rejects_before_network) ... ok
+test_cancelled_fetch_persists_incomplete_status (test_hypersim.InputTests.test_cancelled_fetch_persists_incomplete_status) ... ok
+test_existing_run_is_never_overwritten (test_hypersim.InputTests.test_existing_run_is_never_overwritten) ... ok
+test_fixture_disjointness (test_hypersim.InputTests.test_fixture_disjointness) ... ok
+test_missing_reconstruction_stays_in_evaluation (test_hypersim.InputTests.test_missing_reconstruction_stays_in_evaluation) ... ok
+test_no_valid_reference_is_explicitly_unevaluable (test_hypersim.InputTests.test_no_valid_reference_is_explicitly_unevaluable) ... ok
+test_partial_manifest_is_not_reconstruction_input (test_hypersim.InputTests.test_partial_manifest_is_not_reconstruction_input) ... ok
+test_server_ignoring_range_is_rejected (test_hypersim.InputTests.test_server_ignoring_range_is_rejected) ... ok
+test_unsafe_paths_rejected (test_hypersim.InputTests.test_unsafe_paths_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.037s
+
+OK

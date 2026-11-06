@@ -1,0 +1,1149 @@
+{
+  "source_revision": "334482aecfba8c23d9428dd59d61c6bfa60c203d",
+  "source_branch": "crimescene",
+  "workspace_branch": "future-demos",
+  "documentation": [
+    {
+      "source": ".claude/agents/eva-implementer.md",
+      "archive": "docs/archive/snapshot/.claude/agents/eva-implementer.md",
+      "sha256": "1c93e2a0a7bbe898a0f569db14c8f948b4006af61a33233ee955c9925b33db43",
+      "bytes": 1947,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": ".claude/agents/eva-mechanical.md",
+      "archive": "docs/archive/snapshot/.claude/agents/eva-mechanical.md",
+      "sha256": "8b3dd9b7c91a0f238c2478c1f13d729ef5cb993a03f973218212516e66136e7d",
+      "bytes": 1501,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": ".claude/agents/eva-researcher.md",
+      "archive": "docs/archive/snapshot/.claude/agents/eva-researcher.md",
+      "sha256": "3376f619c4723b8d020d706275a35a908c3cac92bfb96f107a07496250bb9bfb",
+      "bytes": 1357,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": ".claude/agents/eva-reviewer.md",
+      "archive": "docs/archive/snapshot/.claude/agents/eva-reviewer.md",
+      "sha256": "b7cea22c0b2b82717b439bd5b61643c66cfed4ced284940e3b1cc64c5869b2c0",
+      "bytes": 1478,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": ".claude/agents/eva-ui-designer.md",
+      "archive": "docs/archive/snapshot/.claude/agents/eva-ui-designer.md",
+      "sha256": "fd9a2b861e72adde52f110e74257a7e8578e34b66b55f452d2a1c7da806f285e",
+      "bytes": 1997,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": ".local/room-recovery-ui-after-v4/REVIEW.md",
+      "archive": "docs/archive/snapshot/.local/room-recovery-ui-after-v4/REVIEW.md",
+      "sha256": "0042cc92d70122b53db1af84a9cb4da08c547f02a6e5fddab022a8b2e245a365",
+      "bytes": 2735,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "AGENTS.md",
+      "archive": "docs/archive/snapshot/AGENTS.md",
+      "sha256": "e72c6195be593b436702e4378740027c35476f064de6a988a6769198535d0eba",
+      "bytes": 11505,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "CLAUDE.md",
+      "archive": "docs/archive/snapshot/CLAUDE.md",
+      "sha256": "c754607bccb69c49f1fa2c936362421a1c4f0d5191562bcef9e9ac221eecbe1f",
+      "bytes": 907,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "DESIGN.md",
+      "archive": "docs/archive/snapshot/DESIGN.md",
+      "sha256": "36297acac7c7f12dc4c35b3de9955542bb94a69dd360369a4cf18e3ec6a6b61c",
+      "bytes": 8887,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "PLANNING.md",
+      "archive": "docs/archive/snapshot/PLANNING.md",
+      "sha256": "4bb52670e700a303cbdb87fab139656449f96d37168a07b7eaef51b78dc9aca4",
+      "bytes": 8153,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "PLANNING_HISTORY.md",
+      "archive": "docs/archive/snapshot/PLANNING_HISTORY.md",
+      "sha256": "a32fcb9cdd470e765bf08716ec702a0f68da9c44d26169a9c06dc8950bd1ff37",
+      "bytes": 52717,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "README.md",
+      "archive": "docs/archive/snapshot/README.md",
+      "sha256": "3db91a97e9a913f3bc8d1aca7b22ebee97138c135c3b42cc13baf4eeb9afed5c",
+      "bytes": 5945,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/HISTORY.md",
+      "archive": "docs/archive/snapshot/docs/HISTORY.md",
+      "sha256": "504a020a45f7387f6b659f7df0134decd70c5e50fb305ee9ce9a2f58f7542938",
+      "bytes": 3551,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/FIGMA_WEAVE.md",
+      "archive": "docs/archive/snapshot/docs/design/FIGMA_WEAVE.md",
+      "sha256": "13955204b024fb3bc07b195527f6bc113882ae6708f03e728da8fb37c17be815",
+      "bytes": 3348,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/INDEX.md",
+      "archive": "docs/archive/snapshot/docs/design/INDEX.md",
+      "sha256": "d635b1093be1c7f74801d445ba58746d5ddb80a9096608c0a914aa0386257a3b",
+      "bytes": 9653,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/VOICE_PROMPTING.md",
+      "archive": "docs/archive/snapshot/docs/design/VOICE_PROMPTING.md",
+      "sha256": "f4a0c70406e0c709f7ae39c765444a04f8b5f6018cdb6d47411e46ffe7b58a98",
+      "bytes": 2064,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/aesthetic-matrix-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/aesthetic-matrix-v1.md",
+      "sha256": "be56535151540fee8c97baa1d58a7b2ad5a9f7c5a5e7306a9974e4f4d2fcb95b",
+      "bytes": 1276,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/aesthetic-room-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/aesthetic-room-v1.md",
+      "sha256": "753c71606854cf239e0dc67912d42b8af4675dd14b25ed7035e17fbb35b459cd",
+      "bytes": 1215,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/arkitscenes-pilot-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/arkitscenes-pilot-v1.md",
+      "sha256": "1f4313c7500ea82f49e44be3a49b2e23e643051e16414050843f1b837bbb9438",
+      "bytes": 6488,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-argus-pilot-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-argus-pilot-v1.md",
+      "sha256": "2a19f0378829c568cf0831e2ae350ed386fa3a06ce43f5048e1e34a42f2322ab",
+      "bytes": 13781,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-arkham-v2.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-arkham-v2.md",
+      "sha256": "527a3a045f44b6bf15e1d798c9aeb6311736febd37be1875420bc745e0c0d73b",
+      "bytes": 1624,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-arkham-v3.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-arkham-v3.md",
+      "sha256": "02ecdbe6e9f057513fb8fcf1aa07047fd0ed18bae13b040375065d54aa862622",
+      "bytes": 2063,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-detective-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-detective-v1.md",
+      "sha256": "480e954e62cc5a89afab685806d36aa0fde1fa60462ae8dd1e15a8beb580735c",
+      "bytes": 4368,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-eva-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-eva-v1.md",
+      "sha256": "462362d606ce92159ce54be7618c87b35e8a881d23e183e8e85ea6e34f15142f",
+      "bytes": 33177,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-execution-prerequisites-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-execution-prerequisites-v1.md",
+      "sha256": "5ce86519613e3bb66e3a89181dc49e6b61896b4053991c6db3c2d2b3d8e2ce7b",
+      "bytes": 20916,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-inspection-demo-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-inspection-demo-v1.md",
+      "sha256": "bddbd5a89960afd2cc097e843ac589d4df4e312df212466c781d4104216dad0d",
+      "bytes": 2548,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-interior-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-interior-v1.md",
+      "sha256": "d9986fca6b705989e4aa7de18cfa2cda037a3f1cf1d82346f9a6af8ccc1d2301",
+      "bytes": 9900,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-isometric-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-isometric-v1.md",
+      "sha256": "30f76e4d44e6baf3ca404306d7140295f0231944a5db992e34b2805f20bc83e7",
+      "bytes": 3612,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-matrix-live-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-matrix-live-v1.md",
+      "sha256": "1c5d17c846853a6048a600b95e36b7d0d52e48efc2d2bb16ec517a182d9270b7",
+      "bytes": 2708,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-matrix-live-v2.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-matrix-live-v2.md",
+      "sha256": "6114299ebe4d1b38c962c0bc75ef58d0ad373b99465b6acaad5d9e6ee6893d29",
+      "bytes": 2695,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-matrix-live-v3.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-matrix-live-v3.md",
+      "sha256": "3e90fa3ceef2c869c34ecdbed38784bf325648a4f56c23d7a4a46bdf2d07cf41",
+      "bytes": 2421,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-objects-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-objects-v1.md",
+      "sha256": "700b9458151029d774b35f2241441d1f833117e8f631a976cdc4dcbe69a176f9",
+      "bytes": 18678,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-offline-admission-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-offline-admission-v1.md",
+      "sha256": "adb83f42c495b7fe208976f67e5160519754ae939075a619bbc336898bd9f7c9",
+      "bytes": 12382,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-panorama-trial-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-panorama-trial-v1.md",
+      "sha256": "4e36b0c2de42028b5708254820408646eb3044453d288c28b448d25cb7c18ef5",
+      "bytes": 26377,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-realsee-import-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-realsee-import-v1.md",
+      "sha256": "d6c4128888e29d3b8ebbc79f69731cb37e4e869534042bbcd7b34ed8256f57bd",
+      "bytes": 10402,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-realsee-render-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-realsee-render-v1.md",
+      "sha256": "23da17a1933bc64c4d461eb26b704b01d6474ada164aa87ae69835d9026597dc",
+      "bytes": 27565,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/crime-scene-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/crime-scene-v1.md",
+      "sha256": "d7e9e271012d90a1a4ef7594ee8c7af0a220c1fa59ee20f5f24320753faf7873",
+      "bytes": 14139,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/full-room-v4.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/full-room-v4.md",
+      "sha256": "fb794ed75e892beb48ab7c6fea2feab8f1a086a33a74bfc5de0798c8f2770992",
+      "bytes": 3005,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/general-room-style-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/general-room-style-v1.md",
+      "sha256": "2f3e2cc14ea83c8384619e47c7c4ecb0ece0ddbb2625a8d9921637aefad9be17",
+      "bytes": 936,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/genrc-cloud-pilot-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/genrc-cloud-pilot-v1.md",
+      "sha256": "3f9311be1abb892cdcd9a159c13c1e85bf5ffafb19b31c58522e32041450b8d8",
+      "bytes": 11775,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/geometry-completion-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/geometry-completion-v1.md",
+      "sha256": "59b1ba6a5af4a2ee7bcc10c61ffad5e99864485b2f4bdb8f51dc1b10eb9b973e",
+      "bytes": 1975,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/hypersim-ai-001-004-r02.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/hypersim-ai-001-004-r02.md",
+      "sha256": "df53ad8452c72254ced9cdfe0ca14cdeae9224aa1fc9b3bff9a799487eae03b2",
+      "bytes": 5935,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/hypersim-ai-001-004-r03.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/hypersim-ai-001-004-r03.md",
+      "sha256": "ef69ed709a13fb25f08e2ff80af236b37e0bc85c0d21f40be81ba34b44bb2407",
+      "bytes": 3070,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/idealized-room-backend-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/idealized-room-backend-v1.md",
+      "sha256": "cecfecc876922f403cb79a16c34c5907ec46d83603272351abff85a404196b96",
+      "bytes": 19821,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/material-completion-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/material-completion-v1.md",
+      "sha256": "3f318a7f7c85fd12147c203902ffffbad413a567ae162431e365fd95d39475d6",
+      "bytes": 1852,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/object-suggestions-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/object-suggestions-v1.md",
+      "sha256": "6f1b41524009e12fe37bd4223f01ca2704c423a00248b69759d8993ed9fbe6d4",
+      "bytes": 1734,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/room-refinement-v5.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/room-refinement-v5.md",
+      "sha256": "4471bb6e7d65d55732091e2ecf870599347e24237faaedae8c63a5b5e9809b3c",
+      "bytes": 2058,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/room-upload-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/room-upload-v1.md",
+      "sha256": "47995ae9e6cdcd3f63eef739a56dd35fa4d8b19e43ae1f8496cc1f6681beee7a",
+      "bytes": 2748,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/teal-bedroom-acquisition-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/teal-bedroom-acquisition-v1.md",
+      "sha256": "e1f59066aa71d510bb960ad1f0409a0859d63c40f8dd952bba2e918813b8f424",
+      "bytes": 9359,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/teal-bedroom-authored-light-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/teal-bedroom-authored-light-v1.md",
+      "sha256": "48cfb978f51c4b0ea360c53a647446148b1f12d61753cb60428524e1a97b5117",
+      "bytes": 3504,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/teal-bedroom-ceiling-patch-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/teal-bedroom-ceiling-patch-v1.md",
+      "sha256": "ef2ea3203b36d7dc95399bffc5cbc1f245151a743092ef25476ad61b40393d6f",
+      "bytes": 4908,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/teal-bedroom-completion-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/teal-bedroom-completion-v1.md",
+      "sha256": "e324aeeab139ff108eb0f4c5a5bacb91a08f2252109380affb86e80742aa67f8",
+      "bytes": 3091,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/teal-bedroom-demo-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/teal-bedroom-demo-v1.md",
+      "sha256": "d083a35ea5fb35b80a00fa4b09382c913aa38b4d52b789a0f3d0a12e9e8e8dc4",
+      "bytes": 3794,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/teal-bedroom-rgbd-calibration-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/teal-bedroom-rgbd-calibration-v1.md",
+      "sha256": "75e928e18e7cf5f038431990de1f03e1574cf2dce0d1c3408842417a552c54ed",
+      "bytes": 37144,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/teal-bedroom-rgbd-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/teal-bedroom-rgbd-v1.md",
+      "sha256": "7eabf69a5e503e4a2548fbe8acaae04411b7ade8bb5d353263ca6d2354fccd68",
+      "bytes": 16568,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/teal-bedroom-teddy-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/teal-bedroom-teddy-v1.md",
+      "sha256": "6e251876bf02c93e3975eaa078ed65e428b6c91c5fdc6215b558dcb6262fecf7",
+      "bytes": 2924,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/teal-bedroom-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/teal-bedroom-v1.md",
+      "sha256": "144c71d839a45eb41cc39c794d5d95a061879b505461b559ed4e8c7faad346a5",
+      "bytes": 30722,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/weave-room-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/weave-room-v1.md",
+      "sha256": "8911cf4a9a6e1aa1c0ad7e8abf2e003a477a51e7ba50df231eeaa1a6c6a8b181",
+      "bytes": 1389,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/weave-room-v2.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/weave-room-v2.md",
+      "sha256": "06b7f8a7ad1cffc987fe8ea2967eb22ea1046c398c920546dff9839b50e048a7",
+      "bytes": 1391,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/acceptance/worldmirror-viewer-v1.md",
+      "archive": "docs/archive/snapshot/docs/design/acceptance/worldmirror-viewer-v1.md",
+      "sha256": "e852904017bf101be83998e7d7c3bfb354bd1948384521ac0d68c44dce51c4c2",
+      "bytes": 2041,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/actual-upload-isolated-v2/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/actual-upload-isolated-v2/REVIEW.md",
+      "sha256": "f6d612798723f5f52e9be3bff4e8847e1e7065c835cfe90455dfc7768e5d93f2",
+      "bytes": 1936,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/aesthetic-matrix-v2-after/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/aesthetic-matrix-v2-after/REVIEW.md",
+      "sha256": "9a078abb2331b292b04bf1e3315fdd21e0017a28ba41ccd240c8b054c5f84906",
+      "bytes": 3685,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/aesthetic-room-v6-after/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/aesthetic-room-v6-after/REVIEW.md",
+      "sha256": "a0fdb8f05296f863a124944b5afea25342bd569bab944131aaf798870fdd4e68",
+      "bytes": 5315,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/arkit-live-v5/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/arkit-live-v5/REVIEW.md",
+      "sha256": "4522441016eb2cc3a51c6f799a427333ca5c4383f09a84cc4cdd40a1c04914c7",
+      "bytes": 3421,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/arkit-material-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/arkit-material-v1/REVIEW.md",
+      "sha256": "539c7fd553faeb6d3f0b0b9a3d5c569ce5e26db87036c9d007cb2109666786f3",
+      "bytes": 844,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/arkit-material-v2/POINT_CONTRAST_REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/arkit-material-v2/POINT_CONTRAST_REVIEW.md",
+      "sha256": "bbd48dc2993e8af8b86bac7d95c790bb6db0d6ca5f474a1bbbbba506d4b59c77",
+      "bytes": 3565,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/arkit-material-v2/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/arkit-material-v2/REVIEW.md",
+      "sha256": "7810e22fbfbc09c78d20c7c0ffacfcae890dcae99ad31441b897bf4f2e008119",
+      "bytes": 3248,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/arkit-point-contrast-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/arkit-point-contrast-v1/REVIEW.md",
+      "sha256": "80df29980fc24d6584c5eb412bfd88c0acb5c1d625b1ee1510f3b1f40024c1a7",
+      "bytes": 4296,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/arkit-profiles-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/arkit-profiles-v1/REVIEW.md",
+      "sha256": "6eb88793bdf79ad467bba3682d4523d97ba07aea33c5edcd4e34595968fb1894",
+      "bytes": 3357,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-argus-kimodo-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-argus-kimodo-v1/REVIEW.md",
+      "sha256": "3dca5330d434abc3b64f070d04c0b60e566192639bec68b5f06255d44b3ac4ef",
+      "bytes": 6486,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-arkham-v2/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-arkham-v2/REVIEW.md",
+      "sha256": "3c25b454a8c6e7e1137b1d322c5f4c5406a76e0c5efeace9c67678a5b06c7bd1",
+      "bytes": 5196,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-arkham-v3/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-arkham-v3/REVIEW.md",
+      "sha256": "2e037cbeb2b5f2e2388f469a6a7a3a6a6f5eb57c5819a73248cf10c714d85da3",
+      "bytes": 8384,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-detective-v1/CLOUD.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-detective-v1/CLOUD.md",
+      "sha256": "017c1618bffbbcc3f9845b602a98cf0b0816ea5f003f8ddf67189ac789ed0944",
+      "bytes": 7031,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-detective-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-detective-v1/REVIEW.md",
+      "sha256": "f1a1cd3ac621eea31605d58dd70092ded9fd701845ec832245b4075dbf02bfb8",
+      "bytes": 5996,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-eva-v1/FIGURE-LICENCE.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-eva-v1/FIGURE-LICENCE.md",
+      "sha256": "8ce6dbe7208d1a8d5a9469ab8b067d5402d89f7f37a71028410a427f55f3bbbb",
+      "bytes": 1533,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-eva-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-eva-v1/REVIEW.md",
+      "sha256": "cf2bed5cbfa8f38433bcce61f9c1c0ef21802f609177ce9a1926b6c332beac98",
+      "bytes": 2007,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-eva-v1/implementation/before/PROVENANCE.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-eva-v1/implementation/before/PROVENANCE.md",
+      "sha256": "8ede4796f1dc364b06932f07f50709ac86f5d909f5402ffc274c44788bed9923",
+      "bytes": 409,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-eva-v1/models-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-eva-v1/models-v1/REVIEW.md",
+      "sha256": "74866598431c628424489d7a0fad0b5ae9a4ffc3af1db34177cd6304fc643ee1",
+      "bytes": 2417,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-inspection-demo-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-inspection-demo-v1/REVIEW.md",
+      "sha256": "cc19fe104603aff336670120e158983dab847f560f5a83b7a1263121a1ec9f05",
+      "bytes": 8839,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-interior-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-interior-v1/REVIEW.md",
+      "sha256": "18b43d1f0112c4c834030323565c06dca9757dd5d7a58437d853fd30016c9981",
+      "bytes": 7021,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-isometric-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-isometric-v1/REVIEW.md",
+      "sha256": "d703430d59be3d584befbcab6a1164b1af374a03ecfc5a49897c0dc8c5d71fdc",
+      "bytes": 6731,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-matrix-live-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-matrix-live-v1/REVIEW.md",
+      "sha256": "ed60ab75f6f5dcaa5e66d2095ac53c8ec1286520bd3ce50326759b8e450ae118",
+      "bytes": 6256,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-matrix-live-v2/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-matrix-live-v2/REVIEW.md",
+      "sha256": "06b48dfbcdfe048f4b94ca468ecebfe4464a0dbe109d351e8ee05a54e0f57a50",
+      "bytes": 4984,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-matrix-live-v3/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-matrix-live-v3/REVIEW.md",
+      "sha256": "05fe2fc5a4fb9cdb75aa685b38e71277e3a9c0311a315dfb5eee3763e6cac921",
+      "bytes": 5187,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-matrix-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-matrix-v1/REVIEW.md",
+      "sha256": "8c654e1381160ad4517ab0c22a73781fe5b5fe991e66b7dfda33f2f92c8f9e52",
+      "bytes": 17398,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-realsee-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-realsee-v1/REVIEW.md",
+      "sha256": "2f2779e403de50a24ba4a09f03b37f22575b6362e8d186afc92a4fb2ec2f1983",
+      "bytes": 10686,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/crime-scene-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/crime-scene-v1/REVIEW.md",
+      "sha256": "2b2b29af54b8b26039b5ddd2f742a84fcbc1382749897b4fb9c0781447212ba6",
+      "bytes": 5057,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/full-room-v4/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/full-room-v4/REVIEW.md",
+      "sha256": "eb83c5b0b4bd68afa138feba40bb02c21e2c458517b8ca3b0e7151a7cd261246",
+      "bytes": 4313,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/general-room-style-v3/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/general-room-style-v3/REVIEW.md",
+      "sha256": "50cdc7f261c74cbcb376d4fabc1d89e9974d6617e42b33ea42f2a2e8c36f29df",
+      "bytes": 3362,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/idealized-room-m1-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/idealized-room-m1-v1/REVIEW.md",
+      "sha256": "37985699bf5f070628a41b163e04cc7ff2471f76ad5186358cc42a5bc69e2e0b",
+      "bytes": 1645,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/room-r03/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/room-r03/REVIEW.md",
+      "sha256": "cd3d5f0d0ec1630e26fd76c372631fbc094363978ab85aaa340519aaa9e6cad9",
+      "bytes": 5209,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/room-r03/implementation/project-checks.txt",
+      "archive": "docs/archive/snapshot/docs/design/revisions/room-r03/implementation/project-checks.txt",
+      "sha256": "ed2f31f5881094bda7fa3ef07c9abf7e3de527bbb155246be79f41f16aa88f5e",
+      "bytes": 89136,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/room-recovery-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/room-recovery-v1/REVIEW.md",
+      "sha256": "303dba4e57aa552ec567d9516c916f5b92226020d056c26aaaf03c6b9ec41cb8",
+      "bytes": 4016,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/room-recovery-v2/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/room-recovery-v2/REVIEW.md",
+      "sha256": "928ee75128f69ff47d1f378717c19b6481553841b693e8bfab3d550d5528262f",
+      "bytes": 2063,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/room-refinement-v5/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/room-refinement-v5/REVIEW.md",
+      "sha256": "acf90e8a303b4f399e3337f1250b3982a6e494061da89b3bab5c2b3270ec27ce",
+      "bytes": 6909,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/room-upload-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/room-upload-v1/REVIEW.md",
+      "sha256": "fa6406117b7435f8547c1bc0a4557ebbe2f1f2b35d0a26f864a63dadf5ea07ba",
+      "bytes": 5406,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/teal-bedroom-completion-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/teal-bedroom-completion-v1/REVIEW.md",
+      "sha256": "913485bcbc69cd5ffef62870e8274bc0118d883374e1030a975dbddfc7f64da6",
+      "bytes": 6759,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/teal-bedroom-demo-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/teal-bedroom-demo-v1/REVIEW.md",
+      "sha256": "b2c3d71cd00afd7ccfd89ccc26877ea99a882d5adbab1fde31afa6236ea35903",
+      "bytes": 6944,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/teal-bedroom-repair-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/teal-bedroom-repair-v1/REVIEW.md",
+      "sha256": "1472c0f3e9d106480a2b58fd14a659db35d7ace7cac03199dde694155799f250",
+      "bytes": 18616,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/teal-bedroom-teddy-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/teal-bedroom-teddy-v1/REVIEW.md",
+      "sha256": "f19292dd39c8a67b2ddc4d9a4b8f5e6b8a9ed57a80101bb5512eba37c4b44ab6",
+      "bytes": 6355,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/teal-bedroom-textures-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/teal-bedroom-textures-v1/REVIEW.md",
+      "sha256": "e9ac165cf462c119e6548f51f019454320c48759501203d3c36971e1b1f49779",
+      "bytes": 5101,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/revisions/worldmirror-viewer-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/revisions/worldmirror-viewer-v1/REVIEW.md",
+      "sha256": "46ebd601a7958ecce99860dcbc2a77cccf8f685196bd22e33299598c68f9d04d",
+      "bytes": 8783,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/design/templates/weave-review/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/design/templates/weave-review/REVIEW.md",
+      "sha256": "5af7877ebcae2d2b7c6c17d7b0f9d03ea25d764ecce19ce51c0598538a622a08",
+      "bytes": 3582,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/development/AGENT_WORKFLOW.md",
+      "archive": "docs/archive/snapshot/docs/development/AGENT_WORKFLOW.md",
+      "sha256": "7c38af287660556a7a51a77803ce3cef9e36004599449b46cdfd7ba73b9a84b8",
+      "bytes": 3296,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/development/CRIME_SCENE_REPLACEMENT_HANDOFF.md",
+      "archive": "docs/archive/snapshot/docs/development/CRIME_SCENE_REPLACEMENT_HANDOFF.md",
+      "sha256": "ddaf58efd26d5aa25386f17de801b21d5a10e3da9b4eee097614aefe4e5e5fba",
+      "bytes": 10448,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/ARKITSCENES_PILOT.md",
+      "archive": "docs/archive/snapshot/docs/research/ARKITSCENES_PILOT.md",
+      "sha256": "5edf06568db052360feed3a5e43383c9ab1123bb865bfa5898ca034ceb8a31f5",
+      "bytes": 30601,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/EVA_RESEARCH_IMPLEMENTATION_PLAN.md",
+      "archive": "docs/archive/snapshot/docs/research/EVA_RESEARCH_IMPLEMENTATION_PLAN.md",
+      "sha256": "d8949477d5320d4cc0beb7affd7be92101a32f540309be7d24a2b776c621e69c",
+      "bytes": 8167,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/GENERAL_ROOM_COMPLETION.md",
+      "archive": "docs/archive/snapshot/docs/research/GENERAL_ROOM_COMPLETION.md",
+      "sha256": "6c6a1b47c7a3a561d817963a112e25d67d083ba02ec65efbb2aa441bb41ab52b",
+      "bytes": 12631,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/OBJECT_SUGGESTIONS_PILOT.md",
+      "archive": "docs/archive/snapshot/docs/research/OBJECT_SUGGESTIONS_PILOT.md",
+      "sha256": "88315232a0c2498ac4e5ba294b2a503ca646261573f5b913b6a0a496e7648672",
+      "bytes": 10650,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/SHADO_ROOM_WORKFLOW_REQUIREMENTS.md",
+      "archive": "docs/archive/snapshot/docs/research/SHADO_ROOM_WORKFLOW_REQUIREMENTS.md",
+      "sha256": "5ad0021d02b803893c0f39219816a4ed2a1b7093ee569b1312beecca193325f1",
+      "bytes": 26159,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/WORLDMIRROR_SAM3D_COMBINATION.md",
+      "archive": "docs/archive/snapshot/docs/research/WORLDMIRROR_SAM3D_COMBINATION.md",
+      "sha256": "fe5f949791ddb40848b849075ad34a68577378d7861d3824f4b788853c2fe4d7",
+      "bytes": 49103,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/figures/README.md",
+      "archive": "docs/archive/snapshot/docs/research/figures/README.md",
+      "sha256": "20f9dad34e19bb9f4cc396d5cc857f33fabb3e4806dcb32a0fe85d44b8aedc9e",
+      "bytes": 834,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/README.md",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/README.md",
+      "sha256": "494003e09a471a6eb013457639bd6a06a125b745772b60ad64a768b5c1bbd846",
+      "bytes": 12920,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/WEAVE_COMPLETION.md",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/WEAVE_COMPLETION.md",
+      "sha256": "a71e2b24bd6c66ec071a6498dc2e5ec45877c821c213de6a59ea7f2c08227263",
+      "bytes": 9626,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/full-room-v4/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/full-room-v4/REVIEW.md",
+      "sha256": "2df306c007d0da74ce751e595e50b26ee753f3765d4a57af416a65229c4bc19d",
+      "bytes": 9558,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/full-room-v4/application-check.txt",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/full-room-v4/application-check.txt",
+      "sha256": "8815ea0bfc65f3e0a63d2bfe858704a47eecadb315fb6e7136a9ef598ec2f569",
+      "bytes": 92318,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/full-room-v4/python-tests.txt",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/full-room-v4/python-tests.txt",
+      "sha256": "fe416331c5cfc6bef2c235a3f301a3022f8bada506eb6e664c3ed6cc23537b40",
+      "bytes": 1066,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/genrc-pilot-v1/IronDepth-repository-LICENSE.txt",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/genrc-pilot-v1/IronDepth-repository-LICENSE.txt",
+      "sha256": "e8c664dd81f4123f0e2ad2abc5dc059e52520a12f7ea9d006956f0e364f78ea6",
+      "bytes": 1069,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/genrc-pilot-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/genrc-pilot-v1/REVIEW.md",
+      "sha256": "6872044f794127bbeb71fd45ff127f626b880479018ab77e76799877e79491b4",
+      "bytes": 5407,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/genrc-pilot-v1/SD2-LICENSE-MODEL.txt",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/genrc-pilot-v1/SD2-LICENSE-MODEL.txt",
+      "sha256": "e514164be7f2ca2c0fb39e7283b01ab4a06d802837eaf171aa4645cfd7ee1157",
+      "bytes": 14206,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/geometry-completion-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/geometry-completion-v1/REVIEW.md",
+      "sha256": "87b3fbb819a58fe064b226966d862c981618cd0b565b883e6bfa0ae184c23690",
+      "bytes": 6181,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/geometry-completion-v1/tests.txt",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/geometry-completion-v1/tests.txt",
+      "sha256": "077e5439fa394117a39815db3a32f30dcd650abd80dcd8277b2e7e32f1baef48",
+      "bytes": 5222,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/material-completion-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/material-completion-v1/REVIEW.md",
+      "sha256": "bc38b35bf5998ed20485925f0102f69d6d9f26fe09ebb0b19c852dd1982575db",
+      "bytes": 5848,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/r02/dependency-check.txt",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/r02/dependency-check.txt",
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "bytes": 31,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/r02/tests.txt",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/r02/tests.txt",
+      "sha256": "27ffabd123ab21e0bbd6fbec5a0e1bbdf450692bd13052ece8d01bbf5eb40e1c",
+      "bytes": 2027,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/r03/tests.txt",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/r03/tests.txt",
+      "sha256": "07ed3e2d30b6cf8f582ce2d1743bd46ad0528ab92453e3425b6de353fd1e41ca",
+      "bytes": 2690,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/room-refinement-v5/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/room-refinement-v5/REVIEW.md",
+      "sha256": "e6e041f099afcc2949a966a47311fc9af74688c2d9862776c0a2baa1e095c9d9",
+      "bytes": 1330,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/room-refinement-v5/application-check.txt",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/room-refinement-v5/application-check.txt",
+      "sha256": "d16b569324135096bb91c397c91583b4c2a993dea20563e4fd718535fa578616",
+      "bytes": 92860,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/weave-room-v1/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/weave-room-v1/REVIEW.md",
+      "sha256": "7f3a802d3da8d4220f989ba0f565e1eaa5b63ab68fef55c40ecf31e5507e0b5b",
+      "bytes": 3666,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/research/hypersim/evidence/weave-room-v2/REVIEW.md",
+      "archive": "docs/archive/snapshot/docs/research/hypersim/evidence/weave-room-v2/REVIEW.md",
+      "sha256": "125e3aa721d0ec79af8a550c84ea05f681caedd8cef5984279a855a1905066bb",
+      "bytes": 4178,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/superpowers/plans/2026-10-21-idealized-room.md",
+      "archive": "docs/archive/snapshot/docs/superpowers/plans/2026-10-21-idealized-room.md",
+      "sha256": "26e6b215fd2555201e65d2acc0f28609cd95a5fe05b8a3ac5b2126067d560653",
+      "bytes": 49741,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/superpowers/plans/2026-10-21-teal-bedroom-reconstruction.md",
+      "archive": "docs/archive/snapshot/docs/superpowers/plans/2026-10-21-teal-bedroom-reconstruction.md",
+      "sha256": "75accf772dd8199753259ba3a6b24f0c3be27c33713ca01519178897cdc9b93f",
+      "bytes": 37534,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/superpowers/plans/2026-10-27-eva-investigator.md",
+      "archive": "docs/archive/snapshot/docs/superpowers/plans/2026-10-27-eva-investigator.md",
+      "sha256": "ba414b25aafd7a850bce263ca3f524076cd388516b7cb7ebcb37163abe5175a3",
+      "bytes": 26103,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/superpowers/plans/2026-10-28-crime-scene-argus-kimodo.md",
+      "archive": "docs/archive/snapshot/docs/superpowers/plans/2026-10-28-crime-scene-argus-kimodo.md",
+      "sha256": "47add7c99e3befda8ba34b3a10ba2c6f0033dfa2a948515a71cfecfb5cb9f689",
+      "bytes": 28373,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/superpowers/plans/2026-10-29-eva-text-to-world.md",
+      "archive": "docs/archive/snapshot/docs/superpowers/plans/2026-10-29-eva-text-to-world.md",
+      "sha256": "fe32e6560e2b33aee29f60c6f6fce3378d0ea50e04151a86224530b11e8286f3",
+      "bytes": 52248,
+      "tracked_at_baseline": false
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-21-idealized-room-design.md",
+      "archive": "docs/archive/snapshot/docs/superpowers/specs/2026-10-21-idealized-room-design.md",
+      "sha256": "585f1dc4358756f455c23ecef4d3bc829175fc1b0bbfbe011add7974c2a547e3",
+      "bytes": 27719,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-21-teal-bedroom-reconstruction-design.md",
+      "archive": "docs/archive/snapshot/docs/superpowers/specs/2026-10-21-teal-bedroom-reconstruction-design.md",
+      "sha256": "04fd22496bd1bc0f8a8331d1cb39ed060e9dca4debf9cb2ae685ec2851762b56",
+      "bytes": 12303,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-27-eva-investigator-design.md",
+      "archive": "docs/archive/snapshot/docs/superpowers/specs/2026-10-27-eva-investigator-design.md",
+      "sha256": "216550438604d3aad1a1b59ec16b9b26226123f05b28d179d462dfe0491eee13",
+      "bytes": 18068,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-28-crime-scene-argus-kimodo-design.md",
+      "archive": "docs/archive/snapshot/docs/superpowers/specs/2026-10-28-crime-scene-argus-kimodo-design.md",
+      "sha256": "6776f2abc6f5ff833792a0c87aa197cf66df937e0b71665c79e431087c443239",
+      "bytes": 16061,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "integrations/shado/V2_STATUS.md",
+      "archive": "docs/archive/snapshot/integrations/shado/V2_STATUS.md",
+      "sha256": "e0c62d6598b23a6ec4535afbfb73f8ac7323693c799254283ea03e0fc898d7df",
+      "bytes": 9688,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "scripts/reconstruction/GENRC.md",
+      "archive": "docs/archive/snapshot/scripts/reconstruction/GENRC.md",
+      "sha256": "d48c3f7d80fbfb0de39a723948b697b0585569bf3adc28e92e10271df898cf46",
+      "bytes": 12301,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "scripts/reconstruction/genrc-cloud-constraints.txt",
+      "archive": "docs/archive/snapshot/scripts/reconstruction/genrc-cloud-constraints.txt",
+      "sha256": "26e28e9ff960c8c959b88b3021cf4f735398ef1022108ac19eded1525a1c8997",
+      "bytes": 221,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "scripts/reconstruction/genrc-cloud-requirements-linux-py310.txt",
+      "archive": "docs/archive/snapshot/scripts/reconstruction/genrc-cloud-requirements-linux-py310.txt",
+      "sha256": "c14f2f11a354aa040eab9dd6da02ffc4c05a401c4c818451766f9f96814bedec",
+      "bytes": 7151,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "scripts/reconstruction/requirements-lock-win-py312.txt",
+      "archive": "docs/archive/snapshot/scripts/reconstruction/requirements-lock-win-py312.txt",
+      "sha256": "3ad98b6dea344664d36f1518ea9a557cf50c502bbd1a2dfb8ec37c79cce271da",
+      "bytes": 1158,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "scripts/reconstruction/requirements.txt",
+      "archive": "docs/archive/snapshot/scripts/reconstruction/requirements.txt",
+      "sha256": "ceab317fe568403b0b24c97c84228477223099cc5d9ebd8dbad00eecafbf99e1",
+      "bytes": 131,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "scripts/room_workflow/README.md",
+      "archive": "docs/archive/snapshot/scripts/room_workflow/README.md",
+      "sha256": "9176c9bd743cd25befff55e31ac1484b7daa9ce77ac27aaa04e631f933588d92",
+      "bytes": 46050,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "scripts/room_workflow/requirements-cloud.txt",
+      "archive": "docs/archive/snapshot/scripts/room_workflow/requirements-cloud.txt",
+      "sha256": "abe7c630601c69b4f3720d1ea32def37a2eb639875488c5d3cb9e49761208118",
+      "bytes": 420,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "scripts/room_workflow/requirements-objects.txt",
+      "archive": "docs/archive/snapshot/scripts/room_workflow/requirements-objects.txt",
+      "sha256": "0517850dbd12a346325c72cc63da05d02581c15de1b7c430d17d2f7ea1b50111",
+      "bytes": 169,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/README.md",
+      "archive": "docs/archive/snapshot/week4/README.md",
+      "sha256": "f973d73ceae0abb96543c327b24eb71d35e0645a2259a682b6d1ddafc1eb70eb",
+      "bytes": 2895,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/app/LICENSES/OFL-IBM-Plex-Mono.txt",
+      "archive": "docs/archive/snapshot/week4/app/LICENSES/OFL-IBM-Plex-Mono.txt",
+      "sha256": "03b9b5ee8909a33418aaebfa6a807da48c6edebdde79b5b026258a2463e2919b",
+      "bytes": 5392,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/app/LICENSES/OFL-IBM-Plex-Sans.txt",
+      "archive": "docs/archive/snapshot/week4/app/LICENSES/OFL-IBM-Plex-Sans.txt",
+      "sha256": "a8b8906fa622f65203a8c4eb7b467967c7823f4445ed7f05bd378d6b9ecf9b5d",
+      "bytes": 4522,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/app/LICENSES/OFL-Space-Grotesk.txt",
+      "archive": "docs/archive/snapshot/week4/app/LICENSES/OFL-Space-Grotesk.txt",
+      "sha256": "c9a6f76d065b19ee383e42c8a114915e733bcbaed9759de41f4016b64d502cd5",
+      "bytes": 4494,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/app/LICENSES/README.md",
+      "archive": "docs/archive/snapshot/week4/app/LICENSES/README.md",
+      "sha256": "b2587b1afd3fbd970426758682d5d571104b6bd1202578735a6efdc286489f9c",
+      "bytes": 363,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/broker/DURABLE_JOURNAL_REQUIREMENT.md",
+      "archive": "docs/archive/snapshot/week4/broker/DURABLE_JOURNAL_REQUIREMENT.md",
+      "sha256": "5ffd93e42d1ba33f0497e2eacecd69c470bc87a0f395bdce608527d19669726a",
+      "bytes": 3559,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/broker/README.md",
+      "archive": "docs/archive/snapshot/week4/broker/README.md",
+      "sha256": "76a6bdd1169dacb54ed81c493a804b5b7e947ece7a975e7d3b7e91bee29a3f73",
+      "bytes": 4216,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/docs/design/INDEX.md",
+      "archive": "docs/archive/snapshot/week4/docs/design/INDEX.md",
+      "sha256": "a51200e67e9089bc6871e1f71e07c6d62cf3a6b296cbc036c0187e7a83fb9903",
+      "bytes": 543,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/docs/design/acceptance/w4-hover-overlays-r18.md",
+      "archive": "docs/archive/snapshot/week4/docs/design/acceptance/w4-hover-overlays-r18.md",
+      "sha256": "36abff241487d6c4b1741d830fdbdb43141fdeb923fadb711ccc1631a88193cd",
+      "bytes": 3621,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/docs/design/revisions/w4-20261016-hover-overlays-r18/REVIEW.md",
+      "archive": "docs/archive/snapshot/week4/docs/design/revisions/w4-20261016-hover-overlays-r18/REVIEW.md",
+      "sha256": "513fcd2fa9140acf70f69a87c0365dc3f15c7d3d3a634f6c5e57bb3ff181fa27",
+      "bytes": 3163,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/docs/research/SOURCE_CHECKS.md",
+      "archive": "docs/archive/snapshot/week4/docs/research/SOURCE_CHECKS.md",
+      "sha256": "de71a59efd8bcafddda899666fcfd51cf7b21911ad45aa222f15e92d59d9f0bd",
+      "bytes": 1736,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/fixtures/regression/README.md",
+      "archive": "docs/archive/snapshot/week4/fixtures/regression/README.md",
+      "sha256": "68677b977db88549b689702560d6e0d6dae80e91ab34aa4097b8879c2d8becae",
+      "bytes": 450,
+      "tracked_at_baseline": true
+    },
+    {
+      "source": "week4/renderer/README.md",
+      "archive": "docs/archive/snapshot/week4/renderer/README.md",
+      "sha256": "30524f5f3bafd3b0d92d0b0c199997fd6e193ec3a0d7755654ea6c24121cd86d",
+      "bytes": 6631,
+      "tracked_at_baseline": true
+    }
+  ],
+  "code_copies": {
+    "src/room/verified-mesh.ts": "week4/app/src/room/verified-mesh.ts",
+    "tests/verified-mesh.test.ts": "week4/app/tests/verified-mesh.test.ts"
+  },
+  "not_copied": [
+    "legacy runtime routes",
+    "media and datasets",
+    "generated candidates",
+    "credentials and MCP configuration",
+    "legacy hooks",
+    "dependency/build caches",
+    "coordination databases"
+  ],
+  "remote_preservation_verified": false,
+  "source_checkout_must_be_retained": true
+}
